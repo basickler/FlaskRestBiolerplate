@@ -1,6 +1,6 @@
 import sys
 import os
-from flask_restplus import Namespace, reqparse
+from flask_restx import Namespace, reqparse
 from werkzeug.utils import secure_filename
 from werkzeug.datastructures import FileStorage
 

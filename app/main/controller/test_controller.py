@@ -1,5 +1,5 @@
 from flask import request
-from flask_restplus import Resource, reqparse, Namespace, fields
+from flask_restx import Resource, reqparse, Namespace, fields
 from ..dto.test_dto import TestDto
 #from ..service.user_service import save_new_user, get_all_users, get_a_user
 

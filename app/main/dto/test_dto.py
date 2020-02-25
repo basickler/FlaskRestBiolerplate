@@ -1,4 +1,4 @@
-from flask_restplus import Namespace, fields  #, reqparse
+from flask_restx import Namespace, fields  #, reqparse
 
 
 class TestDto:

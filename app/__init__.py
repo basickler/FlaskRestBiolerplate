@@ -1,4 +1,4 @@
-from flask_restplus import Api
+from flask_restx import Api
 from flask import Blueprint, Flask
 
 from .main.controller.test_controller import api as test_ns
